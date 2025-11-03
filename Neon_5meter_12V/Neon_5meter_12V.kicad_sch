@@ -5056,6 +5056,12 @@
 		(uuid "0e544c3f-4895-4537-9f74-07f1eab214fb")
 	)
 	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311cd5c2-d7ef-4793-9ef3-d33fe4dba52d")
+	)
+	(junction
 		(at 36.83 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5120,12 +5126,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c1b4a2e-d5e3-42a5-9a5e-9ced7cc08310")
-	)
-	(junction
-		(at 99.06 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d1f083d-bc4c-4a9c-b5f0-22acb8fee484")
 	)
 	(junction
 		(at 210.82 137.16)
@@ -5245,13 +5245,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 138.43 106.68)
+			(xy 123.19 106.68) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "194c43c2-1357-4b30-b3ee-4a34257d3e33")
+	)
+	(wire
+		(pts
+			(xy 87.63 118.11) (xy 88.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9fc1e9-b41d-4989-a78e-7d17868d0678")
 	)
 	(wire
 		(pts
@@ -5272,16 +5282,6 @@
 			(type default)
 		)
 		(uuid "1eed8967-7b0c-469b-8552-b090716477d7")
-	)
-	(wire
-		(pts
-			(xy 96.52 78.74) (xy 99.06 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f90da91-1745-46ee-8163-d73a81b16c92")
 	)
 	(wire
 		(pts
@@ -5335,7 +5335,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 123.19 96.52)
+			(xy 138.43 96.52) (xy 135.89 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5412,6 +5412,16 @@
 			(type default)
 		)
 		(uuid "3e183072-5b49-4649-ae4b-729f513052e9")
+	)
+	(wire
+		(pts
+			(xy 90.17 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4069b21b-9d4d-4473-9644-894a1288fe15")
 	)
 	(wire
 		(pts
@@ -5675,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e846aeb-7480-4c23-8755-14a6f2ae0b01")
+	)
+	(wire
+		(pts
 			(xy 146.05 86.36) (xy 148.59 86.36)
 		)
 		(stroke
@@ -5685,16 +5705,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 100.33) (xy 80.01 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0937f4a-1f6e-4d3f-94e7-0d2aebcef19a")
-	)
-	(wire
-		(pts
 			(xy 114.3 40.64) (xy 123.19 40.64)
 		)
 		(stroke
@@ -5702,6 +5712,16 @@
 			(type default)
 		)
 		(uuid "a5ef1071-147e-4fb6-a898-f8f4a541b6e1")
+	)
+	(wire
+		(pts
+			(xy 128.27 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64eb96d-462e-42b4-a3c9-1c49b50b0a35")
 	)
 	(polyline
 		(pts
@@ -5735,13 +5755,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 118.11) (xy 80.01 118.11)
+			(xy 87.63 100.33) (xy 88.9 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b113ae6a-8aad-4de4-b865-5b702303116b")
+		(uuid "ad4edf13-287f-47c0-a8d8-032b88a4c745")
 	)
 	(wire
 		(pts
@@ -5895,16 +5915,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 118.11) (xy 88.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d14dc88a-1538-4fe8-96be-113fff9140da")
-	)
-	(wire
-		(pts
 			(xy 22.86 26.67) (xy 26.67 26.67)
 		)
 		(stroke
@@ -5965,16 +5975,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 88.9 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcd1ed2e-977e-4ee0-bf2b-0cc059188648")
-	)
-	(wire
-		(pts
 			(xy 26.67 27.94) (xy 26.67 26.67)
 		)
 		(stroke
@@ -5982,6 +5982,16 @@
 			(type default)
 		)
 		(uuid "de4a8be1-cb2b-4d68-b62d-f8409f7fa039")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbc6dc1-c1de-46de-aa06-ae04047a672e")
 	)
 	(wire
 		(pts
@@ -6515,7 +6525,7 @@
 	)
 	(global_label "ESP_IO26"
 		(shape input)
-		(at 77.47 100.33 270)
+		(at 87.63 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6525,7 +6535,7 @@
 		)
 		(uuid "477ab9df-4b0c-4fc4-8daa-49747781e96a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 112.2656 90)
+			(at 75.6944 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7405,7 @@
 	)
 	(global_label "ESP_IO27"
 		(shape input)
-		(at 77.47 118.11 270)
+		(at 87.63 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7405,7 +7415,7 @@
 		)
 		(uuid "d9dd1d8f-fcef-4a7e-8775-8607755ca00e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 130.0456 90)
+			(at 75.6944 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 78.74 270)
+		(at 142.24 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7657,7 +7667,7 @@
 		(fields_autoplaced yes)
 		(uuid "067052fe-5134-40b9-a74b-b5b81d146c13")
 		(property "Reference" "R13"
-			(at 92.71 72.39 90)
+			(at 142.24 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7675,7 @@
 			)
 		)
 		(property "Value" "660 Ohm"
-			(at 92.71 74.93 90)
+			(at 142.24 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,7 +7683,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 92.71 76.962 90)
+			(at 142.24 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 78.74 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +7701,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 78.74 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7710,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-680%cf%89-%c2%b11-250mw-1206/"
-			(at 92.71 78.74 90)
+			(at 142.24 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,6 +8266,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 92.71 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c81a7eb-52e1-4cf1-98c3-a6f429c24738")
+		(property "Reference" "R12"
+			(at 92.71 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220 Ohm"
+			(at 92.71 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 92.71 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
+			(at 92.71 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27b4bc77-e5d2-401d-a80b-249c709d28b2")
+		)
+		(pin "1"
+			(uuid "38748e0a-0450-4a8d-accb-9a52da6aa56c")
+		)
+		(instances
+			(project "Neon_5meter_12V"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 34.29 0)
 		(unit 1)
@@ -8316,82 +8403,6 @@
 			(project "Neon_5meter_12V"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23836b78-fe8a-45a4-b2ec-960ca14787aa")
-		(property "Reference" "R11"
-			(at 142.494 91.694 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "130 Ohm"
-			(at 142.24 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 142.24 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
-			(at 142.24 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83d5fca9-3f76-41b8-af41-457938992d63")
-		)
-		(pin "1"
-			(uuid "5acea565-812d-4cf6-86ce-1d401ce023f9")
-		)
-		(instances
-			(project "Neon_5meter_12V"
-				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9296,23 +9307,24 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 106.68 90)
+		(at 92.71 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4720f021-55a9-4344-aeab-5e33405bb10d")
-		(property "Reference" "R12"
-			(at 142.494 101.854 90)
+		(fields_autoplaced yes)
+		(uuid "49a2f93f-06e5-4c9f-ad36-79f5c0f10784")
+		(property "Reference" "R11"
+			(at 92.71 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "130 Ohm"
-			(at 142.24 104.14 90)
+		(property "Value" "220 Ohm"
+			(at 92.71 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9320,7 +9332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 142.24 108.458 90)
+			(at 92.71 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,8 +9340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
-			(at 142.24 106.68 0)
+		(property "Datasheet" ""
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9350,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 106.68 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,8 +9358,8 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
-			(at 142.24 106.68 90)
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
+			(at 92.71 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,15 +9368,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d8ad823f-f458-404d-bc61-2f3765233a28")
+			(uuid "503990b0-a36c-4538-a157-fc0b1fb5fd10")
 		)
 		(pin "1"
-			(uuid "187693aa-739e-4ba2-bd80-af283c52f89d")
+			(uuid "0c284ac7-9d4d-4576-bd57-8e7f771729d9")
 		)
 		(instances
 			(project "Neon_5meter_12V"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9517,7 +9529,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 118.11 270)
+		(at 132.08 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9526,7 +9538,7 @@
 		(fields_autoplaced yes)
 		(uuid "51fee274-e690-4a7e-b77a-301b5c3e4474")
 		(property "Reference" "R19"
-			(at 83.82 111.76 90)
+			(at 132.08 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9546,7 @@
 			)
 		)
 		(property "Value" "300 Ohm"
-			(at 83.82 114.3 90)
+			(at 132.08 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +9554,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 83.82 116.332 90)
+			(at 132.08 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +9563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 118.11 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9572,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 118.11 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9581,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-300r-ohm/"
-			(at 83.82 118.11 90)
+			(at 132.08 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050422_XLSEMI-XL1509-5-0E1_C61063.pdf"
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/6d0de0df0601125485b32f8b2d74275d.pdf"
 			(at 66.04 18.542 0)
 			(effects
 				(font
@@ -10938,15 +10950,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 86.36 90)
+		(at 93.98 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8bce927f-9f82-44d6-b3fd-560dcd06c7ba")
+		(fields_autoplaced yes)
+		(uuid "8afce4f7-b1ef-4201-ba96-2cae2b10bb20")
 		(property "Reference" "R10"
-			(at 142.494 81.534 90)
+			(at 93.98 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10954,7 +10967,7 @@
 			)
 		)
 		(property "Value" "220 Ohm"
-			(at 142.24 83.82 90)
+			(at 93.98 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,7 +10975,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 142.24 88.138 90)
+			(at 93.98 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,8 +10983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 142.24 86.36 0)
+		(property "Datasheet" ""
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +10993,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 86.36 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,7 +11002,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
-			(at 142.24 86.36 90)
+			(at 93.98 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,10 +11011,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "52f2e207-29ed-450e-b8d0-5f2162bc6af3")
+			(uuid "5eefed99-6864-4185-aa19-87b83d8b9fd2")
 		)
 		(pin "1"
-			(uuid "548b2db0-2912-4efc-9ce1-408af05c4cf2")
+			(uuid "8829afb4-f876-499d-aba8-9850b07b22d4")
 		)
 		(instances
 			(project "Neon_5meter_12V"
@@ -11163,7 +11176,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 100.33 270)
+		(at 132.08 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11172,7 +11185,7 @@
 		(fields_autoplaced yes)
 		(uuid "919c2590-341f-4c6c-87e2-08e9d6d14aec")
 		(property "Reference" "R9"
-			(at 83.82 93.98 90)
+			(at 132.08 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +11193,7 @@
 			)
 		)
 		(property "Value" "300 Ohm"
-			(at 83.82 96.52 90)
+			(at 132.08 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +11201,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 83.82 98.552 90)
+			(at 132.08 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11197,7 +11210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 100.33 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11219,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 100.33 0)
+			(at 132.08 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11215,7 +11228,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-300r-ohm/"
-			(at 83.82 100.33 90)
+			(at 132.08 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11769,7 +11782,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 100.33 270)
+		(at 142.24 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11778,7 +11791,7 @@
 		(fields_autoplaced yes)
 		(uuid "a09a7cf5-49af-4764-962e-f22bb17e1b1f")
 		(property "Reference" "R14"
-			(at 92.71 93.98 90)
+			(at 142.24 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +11799,7 @@
 			)
 		)
 		(property "Value" "300 Ohm"
-			(at 92.71 96.52 90)
+			(at 142.24 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11807,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 92.71 98.552 90)
+			(at 142.24 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 100.33 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,7 +11825,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 100.33 0)
+			(at 142.24 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +11834,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-300r-ohm/"
-			(at 92.71 100.33 90)
+			(at 142.24 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12490,7 +12503,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 118.11 270)
+		(at 142.24 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12499,15 +12512,15 @@
 		(fields_autoplaced yes)
 		(uuid "b36628cf-8906-42e9-846d-7937aa5c9f61")
 		(property "Reference" "R15"
-			(at 92.71 111.76 90)
+			(at 142.24 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "300"
-			(at 92.71 114.3 90)
+		(property "Value" "300 Ohm"
+			(at 142.24 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12515,7 +12528,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 92.71 116.332 90)
+			(at 142.24 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +12537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 118.11 0)
+			(at 142.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12546,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 118.11 0)
+			(at 142.24 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12542,7 +12555,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-300r-ohm/"
-			(at 92.71 118.11 90)
+			(at 142.24 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
