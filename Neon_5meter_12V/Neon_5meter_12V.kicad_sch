@@ -10,15 +10,15 @@
 		(rev "1_0")
 	)
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_MountingPin"
+		(symbol "Barrel_Jack_MountingPin_1"
 			(pin_names
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.334 0)
+			(property "Reference" "J4"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,15 +26,14 @@
 				)
 			)
 			(property "Value" "Barrel_Jack_MountingPin"
-				(at 1.27 -6.35 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 				(at 1.27 -1.016 0)
 				(effects
 					(font
@@ -53,6 +52,469 @@
 				)
 			)
 			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "link" "https://makerselectronics.com/product/dc-power-jack-female-socket-connector-5-5mmx2-1mm/?srsltid=AfmBOooy7mhTTlq198rTgOOBjODubOeCUUqsiDf1LlSihz3m7IWy6fh7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_1_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_1_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Barrel_Jack_MountingPin_2"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J5"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "link" "https://makerselectronics.com/product/dc-power-jack-female-socket-connector-5-5mmx2-1mm/?srsltid=AfmBOooy7mhTTlq198rTgOOBjODubOeCUUqsiDf1LlSihz3m7IWy6fh7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_2_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_MountingPin_2_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Barrel_Jack_MountingPin"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with a mounting pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "link" "https://makerselectronics.com/product/dc-power-jack-female-socket-connector-5-5mmx2-1mm/?srsltid=AfmBOooy7mhTTlq198rTgOOBjODubOeCUUqsiDf1LlSihz3m7IWy6fh7"
 				(at 0 0 0)
 				(effects
 					(font
@@ -182,7 +644,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5086,12 +5548,6 @@
 		(uuid "603cc0f4-6864-4043-b590-4e55fd79bbf3")
 	)
 	(junction
-		(at 161.29 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "621711fc-e782-46f4-bee4-80922ad04a9a")
-	)
-	(junction
 		(at 43.18 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5114,12 +5570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "899e8966-cecd-4481-853c-9881bbf3050f")
-	)
-	(junction
-		(at 123.19 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95712b77-153f-4719-b71a-851a9da52cdf")
 	)
 	(junction
 		(at 99.06 100.33)
@@ -5275,16 +5725,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 40.64) (xy 161.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eed8967-7b0c-469b-8552-b090716477d7")
-	)
-	(wire
-		(pts
 			(xy 196.85 147.32) (xy 196.85 149.86)
 		)
 		(stroke
@@ -5312,16 +5752,6 @@
 			(type default)
 		)
 		(uuid "2870ecd1-7a76-46aa-8277-ae6db537889a")
-	)
-	(wire
-		(pts
-			(xy 123.19 33.02) (xy 121.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a78f5eb-a3d3-484e-9b0b-9fdda3f93c8a")
 	)
 	(wire
 		(pts
@@ -5372,16 +5802,6 @@
 			(type default)
 		)
 		(uuid "32f590f7-608d-4552-a881-0c756796acf9")
-	)
-	(wire
-		(pts
-			(xy 123.19 40.64) (xy 123.19 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36004cc4-c8c5-4cd8-b861-378ad1b23e85")
 	)
 	(wire
 		(pts
@@ -5505,26 +5925,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 33.02) (xy 123.19 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bdf0298-db24-4e3a-b14f-df43ef4efb12")
-	)
-	(wire
-		(pts
-			(xy 162.56 33.02) (xy 161.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c380297-fe6d-4d25-aa19-31ac22070b58")
-	)
-	(wire
-		(pts
 			(xy 29.21 90.17) (xy 29.21 91.44)
 		)
 		(stroke
@@ -5645,16 +6045,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 38.1) (xy 114.3 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd90ed6-669e-4e51-a845-b27c9459c6bb")
-	)
-	(wire
-		(pts
 			(xy 36.83 180.34) (xy 36.83 190.5)
 		)
 		(stroke
@@ -5675,16 +6065,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 161.29 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc5ca60-32e4-4f0b-8e3a-dc9a2506da21")
-	)
-	(wire
-		(pts
 			(xy 97.79 78.74) (xy 99.06 78.74)
 		)
 		(stroke
@@ -5702,16 +6082,6 @@
 			(type default)
 		)
 		(uuid "a02519b1-c92b-4d23-831c-c2f7ae3152f0")
-	)
-	(wire
-		(pts
-			(xy 114.3 40.64) (xy 123.19 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ef1071-147e-4fb6-a898-f8f4a541b6e1")
 	)
 	(wire
 		(pts
@@ -5812,16 +6182,6 @@
 			(type default)
 		)
 		(uuid "bbf2ac52-5fa7-4f4b-91c5-baa980d7f5a4")
-	)
-	(wire
-		(pts
-			(xy 161.29 33.02) (xy 160.02 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd71255-e656-4285-aaf7-456d73bbbe69")
 	)
 	(wire
 		(pts
@@ -6042,16 +6402,6 @@
 			(type default)
 		)
 		(uuid "ed18ff7a-7753-44df-a60e-aea7c8b2bc5a")
-	)
-	(wire
-		(pts
-			(xy 152.4 38.1) (xy 152.4 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e29588-5419-4e48-9791-ae5dddb1d330")
 	)
 	(wire
 		(pts
@@ -6459,7 +6809,7 @@
 	)
 	(global_label "B_Jack"
 		(shape input)
-		(at 162.56 33.02 0)
+		(at 160.02 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6469,7 +6819,7 @@
 		)
 		(uuid "3d86f892-2fd2-4f26-bd63-5378887e6991")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.0161 33.02 0)
+			(at 169.4761 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,6 +7181,28 @@
 			)
 		)
 	)
+	(global_label "B_Jack"
+		(shape input)
+		(at 152.4 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76bd33a5-3d51-4f53-80b9-fe882b762467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 47.5561 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_IO19"
 		(shape input)
 		(at 265.43 69.85 0)
@@ -7075,7 +7447,7 @@
 	)
 	(global_label "P_Jack"
 		(shape input)
-		(at 124.46 33.02 0)
+		(at 121.92 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7085,7 +7457,7 @@
 		)
 		(uuid "a1e025f0-60d2-46c6-8ff0-1d541b3abffb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.9161 33.02 0)
+			(at 131.3761 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,6 +7920,28 @@
 		(uuid "e97d3745-0543-493a-8c88-117a71dcf3ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.9044 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P_Jack"
+		(shape input)
+		(at 114.3 38.1 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef32e8d5-009c-4f43-8b55-b2384bb93d81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 47.5561 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,6 +10044,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Barrel_Jack_MountingPin_2")
 		(lib_id "Connector:Barrel_Jack_MountingPin")
 		(at 114.3 30.48 0)
 		(unit 1)
@@ -9667,7 +10062,7 @@
 				)
 			)
 		)
-		(property "Value" "Jack-DC"
+		(property "Value" "Barrel_Jack_MountingPin"
 			(at 114.3 24.13 0)
 			(effects
 				(font
@@ -9711,7 +10106,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(pin "3"
 			(uuid "05377fd4-e884-442f-a189-06c586a97e46")
 		)
 		(pin "1"
@@ -9747,7 +10142,7 @@
 				)
 			)
 		)
-		(property "Value" "Jack-DC"
+		(property "Value" "Barrel_Jack_MountingPin"
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -9791,7 +10186,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(pin "3"
 			(uuid "5940b30b-2ea2-41e1-a41e-86a00d2fc0c6")
 		)
 		(pin "1"
@@ -12953,6 +13348,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Barrel_Jack_MountingPin_1")
 		(lib_id "Connector:Barrel_Jack_MountingPin")
 		(at 152.4 30.48 0)
 		(unit 1)
@@ -12970,7 +13366,7 @@
 				)
 			)
 		)
-		(property "Value" "Jack-DC"
+		(property "Value" "Barrel_Jack_MountingPin"
 			(at 152.4 24.13 0)
 			(effects
 				(font
@@ -13014,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(pin "3"
 			(uuid "05652918-b1fc-4759-8962-eb7bf363d4bb")
 		)
 		(pin "1"
