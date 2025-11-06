@@ -16002,7 +16002,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Made on Earth\nby Pharoaphs"
+	(gr_text "Made on Earth\nby pharaohs"
 		(at 170 56.1 90)
 		(layer "B.SilkS")
 		(uuid "d7fc4316-0dab-42bc-8ab9-54c9b03b0173")
