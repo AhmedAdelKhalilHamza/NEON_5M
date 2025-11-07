@@ -9885,7 +9885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "custom_SOT23:custom_SOT23"
 			(at 52.07 126.365 0)
 			(effects
 				(font
@@ -14151,7 +14151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "custom_SOT23:custom_SOT23"
 			(at 52.07 158.115 0)
 			(effects
 				(font
