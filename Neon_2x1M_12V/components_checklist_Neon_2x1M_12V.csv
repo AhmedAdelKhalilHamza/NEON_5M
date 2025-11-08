@@ -1,0 +1,24 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,purchased components,link
+C1,1,1 uF,,,,Capacitor_SMD:C_1206_3216Metric,done,https://uge-one.com/product/smd-chip-capacitor-size-1206-1uf/
+C2,1,470uF 35V,,,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,https://makerselectronics.com/product/capacitor-470uf-35v-1016mm/?srsltid=AfmBOor09AGOe6uRfUPUSJ8gQ4mHe95vw-zHcd40OwpcpkuWNsINe4Bm
+C3,1,330uF 50V,,,,Capacitor_SMD:CP_Elec_10x10.5,done,https://uge-one.com/product/smd-aluminum-electrolytic-capacitor-330uf-50v-1010-5-mm/
+D1,1,1N5822,,,,Diode_SMD:D_SMA,done,https://uge-one.com/product/smd-schottky-diode-3a-40v-1n5822-ss34-sma/
+D5,1,Blue LED,,,,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,,https://makerselectronics.com/product/smd-led-blue-1206/
+D9,1,Red Power LED,,,,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,,https://makerselectronics.com/product/smd-led-red-1206/
+D11,1,LED_BGAR,,,,LED_THT:LED_D5.0mm-4_RGB,,https://makerselectronics.com/product/rgb-diffused-led-common-anode-5mm/?srsltid=AfmBOopPHzUOYTseM6c-FPhrNNL9U_a-mGXrCxR_IuwSm87aQcmXMAWf
+"J2,J4,J5",3,Barrel_Jack_MountingPin,,,,Connector_BarrelJack:BarrelJack_Horizontal,done,
+J6,1,Conn_01x03_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,done,https://microohm-eg.com/product/jst-3-pin-90-degree-male-connector/
+L1,1,47uH / 2A,,,,CD43_Inductor:CD43,done,https://uge-one.com/product/smd-power-inductor-470uh-4-5x4x3-2mm-cd43/
+"Q1,Q2",2,IRLML2502TRPBF,,,,custom_SOT23:custom_SOT23,,https://uge-one.com/product/smd-irlml2502trpbf-sot-23-mosfet/?srsltid=AfmBOoqixCZKi2_Rw_QPyVd6y4KRdvrHyCsGijRPH4lNedpiwvgNOyGw
+Q3,1,BSS138,,,,custom_SOT23:custom_SOT23,,https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_
+"Q4,Q5",2,BSS138,,,,Package_TO_SOT_SMD:SOT-23,,https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_
+R1,1,2.2k Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://makerselectronics.com/product/chip-resistor-smd-2-2k%cf%89-%c2%b15-250mw-1206/
+"R2,R5",2,100 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://uge-one.com/product/smd-chip-resistor-size-1206-100r-ohm/
+"R3,R6,R7,R8,R16,R17,R18",7,10k Ohm,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,https://uge-one.com/product/0805-smd-chip-resistor-10k/?srsltid=AfmBOorGllG0mYHf8TnX2S13KIvxT3n0IIoJoriv-BR9zB-dGtGjm2Vg
+R4,1,1k Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b15-0-25w-%c2%b1100ppm-%e2%84%83-1206-chip/
+"R9,R14,R15,R19",4,300 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://uge-one.com/product/smd-chip-resistor-size-1206-300r-ohm/
+"R10,R11,R12",3,220 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb
+R13,1,660 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,,https://makerselectronics.com/product/chip-resistor-smd-680%cf%89-%c2%b11-250mw-1206/
+"SW1,SW2",2,SW_Push,,,,TS_button_3_4_2:TS_button_3_4_2,done,https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/
+U1,1,ESP32-WROOM-32,,,,RF_Module:ESP32-WROOM-32,done,https://uge-one.com/product/espressif-esp32-wroom-32-dual-core-wi-fi-bluetooth-iot-module/
+U2,1,XL1509-3.3,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,done,https://uge-one.com/product/xl1509-3-3e1-2a-150khz-buck-dc-dc-step-down-converter-regulator-ic-smd/?srsltid=AfmBOoo-d0v4w8P7LjpvPGnwJM-lnyFaeHPU-1Q8rCWLEaeI_F_a5hk3
