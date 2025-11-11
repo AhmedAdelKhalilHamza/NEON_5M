@@ -1,4 +1,4 @@
-(footprint "SW_TS-1088-AR02016"
+(footprint "TS_button_3_4_2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -205,7 +205,7 @@
 		(uuid "5a57075c-4e32-4522-ae6b-e24322182163")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Library/TS-1088-AR02016/TS-1088-AR02016.step"
+	(model "${KIPRJMOD}/Library/TS_button_3_4_2/TS_button_3_4_2.step"
 		(offset
 			(xyz 0 0 0)
 		)

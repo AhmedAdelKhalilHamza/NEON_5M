@@ -116,9 +116,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Production_Files/Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -1233,7 +1233,7 @@
 				)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "65b3364d-26c2-4f17-b5fd-161f43e27dd2")
@@ -1244,7 +1244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1256,7 +1256,7 @@
 				)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1268,7 +1268,7 @@
 				)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2812,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k Ohm"
+		(property "Value" "820 Ohm"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "a5162129-b880-479b-8ddd-0b35f9a48245")
@@ -2823,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://makerselectronics.com/product/chip-resistor-smd-2-2k%cf%89-%c2%b15-0-125w-%c2%b1100ppm-c-0805/"
+		(property "Datasheet" "https://uge-one.com/product/smd-chip-resistor-size-1206-820r-ohm/"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2847,7 +2847,7 @@
 				)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-2-2k%cf%89-%c2%b15-250mw-1206/"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-820r-ohm/"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3679,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Value" "Blue LED"
+		(property "Value" "Red Indicator LED"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "bf8e8354-2d22-41f6-8f0b-3a2ef8caaa84")
@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 0.762922 2.733803 0)
 			(layer "F.Fab")
 			(uuid "90562ab2-375f-46c6-b887-904d6932bee6")
@@ -3937,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3949,7 +3949,7 @@
 				)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5867,7 +5867,7 @@
 				)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "Si2302DS"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "a0d4b0ba-f04e-4e9a-b13a-72d79af2c82f")
@@ -5878,7 +5878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.vishay.com/docs/68645/si2302cds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5890,7 +5890,7 @@
 				)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5902,7 +5902,7 @@
 				)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-mosfet-transistor-bss138-j1-50v-220ma-3-5%CF%8910v220ma-360mw-n-channel-sot-23/?srsltid=AfmBOorKPkIxsAwv-3Onwyym6kfiJ7AE8Pv9g0Pld8GAUTAgILHxbmr_"
+		(property "link" "https://uge-one.com/product/si2302ds-sot23-general-purpose-n-channel-mosfet-smd-transistor-sot-23/"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9647,7 +9647,7 @@
 				)
 			)
 		)
-		(property "Value" "1k Ohm"
+		(property "Value" "820 Ohm"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "bb682798-bca9-4462-8237-867c82b54bc7")
@@ -9658,7 +9658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b15-0-125w-%c2%b1100ppm-%e2%84%83-0603/"
+		(property "Datasheet" "https://uge-one.com/product/smd-chip-resistor-size-1206-820r-ohm/"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9682,7 +9682,7 @@
 				)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b15-0-25w-%c2%b1100ppm-%e2%84%83-1206-chip/"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-820r-ohm/"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10060,7 +10060,7 @@
 				)
 			)
 		)
-		(property "Value" "660 Ohm"
+		(property "Value" "680 Ohm"
 			(at 0 1.83 90)
 			(layer "F.Fab")
 			(uuid "a346bdcf-6a8d-437e-92af-9ffa81e10e94")
@@ -10330,7 +10330,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "61be35d4-af25-4379-8dc0-5fc08207ce81")
+			(uuid "83e0627b-6910-48c9-b611-7ab486eefbe5")
 		)
 		(fp_line
 			(start 2 1.45)
@@ -10340,7 +10340,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e4e4f2bd-96a3-43f0-aa62-4330206dc525")
+			(uuid "72ced2aa-ebc2-41b0-a6d6-60f918ff444b")
 		)
 		(fp_line
 			(start 2 -1.45)
@@ -10350,7 +10350,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "38a6ded8-f931-4641-b71c-4d5c924d677e")
+			(uuid "70c57ef4-5690-4907-9086-55a512f7881c")
 		)
 		(fp_line
 			(start -2 1.45)
@@ -10360,7 +10360,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "907609f7-f054-4f13-99bb-e6e6f83815ac")
+			(uuid "a596d800-df5d-4303-951c-7cd07b73a610")
 		)
 		(fp_line
 			(start -2 -1.22)
@@ -10370,7 +10370,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b7ba9829-c9a8-4718-a09a-f6b88e92ba81")
+			(uuid "f7f0d9f9-6829-4bfb-9cc6-f3a276925337")
 		)
 		(fp_line
 			(start -2 -1.45)
@@ -10380,7 +10380,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "75f6ff8a-af96-4c67-9457-d29ee0f59327")
+			(uuid "ed5ed1b9-0f82-405d-b8d4-c9a785ca61e4")
 		)
 		(fp_line
 			(start 3 1.7)
@@ -10390,7 +10390,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9915e3a5-6300-44ea-b91b-d7f799b33d4a")
+			(uuid "ae6d731b-4627-49ef-af1f-631031ef60c5")
 		)
 		(fp_line
 			(start 3 -1.7)
@@ -10400,7 +10400,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b5387416-db32-43b1-8aad-ada7960f9a0e")
+			(uuid "48ac1105-f699-448d-8206-817d9657ac27")
 		)
 		(fp_line
 			(start -3 1.7)
@@ -10410,7 +10410,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3eab6ee4-6873-40a5-9491-32fe0da65277")
+			(uuid "6a55da9f-0a8e-4593-9bdf-2c0380881f65")
 		)
 		(fp_line
 			(start -3 -1.7)
@@ -10420,7 +10420,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "05325222-6ee4-4d8d-af49-f58b1d67e8a0")
+			(uuid "6a5c7839-96b1-4114-ba95-62ad2823e0c8")
 		)
 		(fp_line
 			(start 2 1.45)
@@ -10430,7 +10430,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "039b0999-21f9-45ee-8873-26043c8e80bd")
+			(uuid "b967cf30-bf40-4856-8412-80774e5ab33b")
 		)
 		(fp_line
 			(start 2 -1.45)
@@ -10440,7 +10440,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b299302c-d573-4ba1-b5e6-51fe821289be")
+			(uuid "aa7dd7dc-4d51-40c9-b20b-aec4f7dc5f13")
 		)
 		(fp_line
 			(start -2 1.45)
@@ -10450,7 +10450,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "53e41de6-5981-4ab0-bbb4-1ff7df8797da")
+			(uuid "5ecb3f13-06d2-4b23-b5b0-93ad25a60b4f")
 		)
 		(fp_line
 			(start -2 -1.45)
@@ -10460,7 +10460,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04486645-a675-40dd-8947-ad231b8ec1ae")
+			(uuid "1567a15c-cd2b-43e7-820b-53daf1880146")
 		)
 		(pad "1" smd rect
 			(at -2.075 0 180)
@@ -10483,7 +10483,7 @@
 			(uuid "458de39a-2db7-440e-b377-8b4db804ef0e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Library/TS-1088-AR02016/TS-1088-AR02016.step"
+		(model "${KIPRJMOD}/Library/TS_button_3_4_2/TS_button_3_4_2.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13870,7 +13870,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8490aba7-6079-4478-9f48-665f467f1011")
+			(uuid "5d12cd32-7b8c-4c62-917f-6b7870223393")
 		)
 		(fp_line
 			(start 2 1.45)
@@ -13880,7 +13880,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "129751a1-a6aa-4ce1-a28d-d3c3d9a5ee39")
+			(uuid "816ef778-435e-4d25-a79f-15c6f76d2f67")
 		)
 		(fp_line
 			(start 2 -1.45)
@@ -13890,7 +13890,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3978dbd5-f1e1-47d6-b233-16e8880d9c97")
+			(uuid "4ba71599-83d2-47c1-a90d-5a2ecb795df5")
 		)
 		(fp_line
 			(start -2 1.45)
@@ -13900,7 +13900,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3c3ace67-d441-4238-9775-18a4460bd6b5")
+			(uuid "08c9a009-9b64-4c3b-9e3a-f55849d7653f")
 		)
 		(fp_line
 			(start -2 -1.22)
@@ -13910,7 +13910,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1a226d1-745d-4378-b7c6-ec15f0c1d975")
+			(uuid "e10b4d3c-b57b-4fae-85b5-881b24fc767d")
 		)
 		(fp_line
 			(start -2 -1.45)
@@ -13920,7 +13920,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bcf9311c-eac6-4861-ab59-1f660f81391a")
+			(uuid "41c0bbae-62de-4be2-88cd-7c86f7ca454a")
 		)
 		(fp_line
 			(start 3 1.7)
@@ -13930,7 +13930,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ab33a543-64c4-4afe-8886-35408773edcf")
+			(uuid "d4501ae8-a3ad-484d-b4eb-0cce2019cc3a")
 		)
 		(fp_line
 			(start 3 -1.7)
@@ -13940,7 +13940,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3a560855-99eb-4310-aa56-e0f49d6d165d")
+			(uuid "6e0a10eb-ff9e-48a9-a57c-723aa1da6fdb")
 		)
 		(fp_line
 			(start -3 1.7)
@@ -13950,7 +13950,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3ec20091-732a-4b50-9a7e-a7bc17e61431")
+			(uuid "4418cd37-5880-4321-8912-e53300043ffb")
 		)
 		(fp_line
 			(start -3 -1.7)
@@ -13960,7 +13960,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "026f1dd6-8465-4563-983c-f6b1a7fd03dc")
+			(uuid "5d6eb769-af1d-4f4d-84c0-007029f261da")
 		)
 		(fp_line
 			(start 2 1.45)
@@ -13970,7 +13970,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aefd3cda-65cb-466c-91c1-7d081ff81206")
+			(uuid "6c5a16a2-5a7f-4e10-9890-6a19a6b5e9fd")
 		)
 		(fp_line
 			(start 2 -1.45)
@@ -13980,7 +13980,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "38796fda-a3db-4852-b14f-9f0b5ffc7d7a")
+			(uuid "cee1d98b-9734-4ebc-8e19-c3b088f3e79e")
 		)
 		(fp_line
 			(start -2 1.45)
@@ -13990,7 +13990,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dc041e3f-3014-4d8d-a9ca-2b63ae16ba61")
+			(uuid "4018b20c-5a49-4b26-86e3-fc6d4f0f0657")
 		)
 		(fp_line
 			(start -2 -1.45)
@@ -14000,7 +14000,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ca648a50-0f9c-4f7f-a0a8-99de581267d3")
+			(uuid "a4a58cda-e025-4452-b1f5-413a0a1028aa")
 		)
 		(pad "1" smd rect
 			(at -2.075 0 180)
@@ -14023,7 +14023,7 @@
 			(uuid "6c815405-cfb3-4cd7-9507-e70ebddb1826")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Library/TS-1088-AR02016/TS-1088-AR02016.step"
+		(model "${KIPRJMOD}/Library/TS_button_3_4_2/TS_button_3_4_2.step"
 			(offset
 				(xyz 0 0 0)
 			)

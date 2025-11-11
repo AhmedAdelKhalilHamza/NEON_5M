@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Neon_5meter_12V.kicad_pro",
+    "filename": "Neon_2x1M_12V.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -511,8 +511,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "Production_Files/Gerbers/",
+      "pos_files": "Production_Files/Centroids/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
