@@ -9,11 +9,11 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
-      "pads": 0.47999998927116394,
-      "shapes": 0.800000011920929,
+      "pads": 1.0,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.699999988079071
+      "zones": 0.6
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -46,11 +46,14 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -60,46 +63,13 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Neon_2x1M_12V.kicad_prl",
+    "filename": "Neon_2x1M_12V_V2_0.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
-    "col_hidden": [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false
-    ],
-    "col_order": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
-    "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112
-    ],
+    "col_hidden": [],
+    "col_order": [],
+    "col_widths": [],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -111,7 +81,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": 0
+    "sorting_column": -1
   },
   "open_jobsets": [],
   "project": {
