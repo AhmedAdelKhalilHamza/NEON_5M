@@ -1,5 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "CD43")(type "KiCad")(uri "${KIPRJMOD}/Library/CD43_Inductor/CD43.kicad_sym")(options "")(descr ""))
-  (lib (name "TS_button_3_4_2")(type "KiCad")(uri "${KIPRJMOD}/Library/TS_button_3_4_2/TS_button_3_4_2.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "TS_button_3_4_2") (type "KiCad") (uri "${KIPRJMOD}/Library/TS_button_3_4_2/TS_button_3_4_2.kicad_sym") (options "") (descr ""))
 )
