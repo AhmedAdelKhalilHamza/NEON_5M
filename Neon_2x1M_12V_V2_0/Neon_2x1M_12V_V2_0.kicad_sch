@@ -1689,6 +1689,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5473,7 +5679,7 @@
 		(uuid "fa9116b2-ee07-4ae4-9276-5614eddb0e18")
 	)
 	(no_connect
-		(at 105.41 88.9)
+		(at 107.95 86.36)
 		(uuid "01490888-621a-42ee-9d1f-830bde75db0a")
 	)
 	(no_connect
@@ -5485,7 +5691,7 @@
 		(uuid "3fdf4b19-646c-4c9d-b217-bd0238c6716a")
 	)
 	(no_connect
-		(at 67.31 88.9)
+		(at 68.58 86.36)
 		(uuid "813801ef-f5ce-4d18-8eae-82c139a385f2")
 	)
 	(no_connect
@@ -6338,6 +6544,16 @@
 		)
 		(uuid "ff6b9bb1-2413-4601-af16-36809942db38")
 	)
+	(label "BUCK_SW"
+		(at 93.98 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de43e416-d12b-49b2-93fd-5e5a1693cfc6")
+	)
 	(global_label "ESP_U0RX"
 		(shape input)
 		(at 265.43 44.45 0)
@@ -6698,6 +6914,30 @@
 			)
 		)
 	)
+	(global_label "P_Jack"
+		(shape input)
+		(at 72.39 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35acfe2c-49a0-4b66-a0b1-540d9c62defa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.8461 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ESP_SVP"
 		(shape input)
 		(at 243.84 119.38 180)
@@ -6719,30 +6959,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "B_Jack"
-		(shape input)
-		(at 113.03 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d86f892-2fd2-4f26-bd63-5378887e6991")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.4861 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6783,6 +6999,30 @@
 		(uuid "3fa4e501-9474-4e92-84d3-b5190116d99e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.3656 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B_Jack"
+		(shape input)
+		(at 106.68 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47172874-8cb4-489c-b184-f6fa432fa890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.1361 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,30 +7610,6 @@
 			)
 		)
 	)
-	(global_label "P_Jack"
-		(shape input)
-		(at 74.93 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1e025f0-60d2-46c6-8ff0-1d541b3abffb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.3861 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ESP_IO16"
 		(shape input)
 		(at 270.51 139.7 0)
@@ -7407,6 +7623,30 @@
 		(uuid "a3203140-be4f-4e19-a24f-b34ff2ee84d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 282.4456 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "P_Jack"
+		(shape input)
+		(at 115.57 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3ce1afa-f80a-4269-bb48-789d13d4520d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0261 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7778,6 +8018,30 @@
 			)
 		)
 	)
+	(global_label "P_Jack"
+		(shape input)
+		(at 76.2 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e21e96d8-5939-4317-bb2c-9fd0933f582d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.6561 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ESP_IO21"
 		(shape input)
 		(at 270.51 127 0)
@@ -7981,7 +8245,7 @@
 			(uuid "d6cd43a0-f399-45fb-a798-d53a8da2b162")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R5")
 					(unit 1)
@@ -8060,7 +8324,7 @@
 			(uuid "45c9ba04-8eac-4f34-b483-006ae6939071")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#FLG04")
 					(unit 1)
@@ -8138,7 +8402,7 @@
 			(uuid "1f032e1b-2fe2-41ef-9f56-3106d1f63b28")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR010")
 					(unit 1)
@@ -8216,7 +8480,7 @@
 			(uuid "69c29908-3aa6-4b64-9c08-9a740bee7633")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR03")
 					(unit 1)
@@ -8295,88 +8559,9 @@
 			(uuid "0481f2eb-99f6-42fe-a1af-306a564a09bc")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 74.93 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09c2288b-feda-4bc9-922a-76fea37ceb4a")
-		(property "Reference" "#PWR024"
-			(at 71.12 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 78.74 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "075dd851-f47a-494d-ade2-f8cd0f44f3ae")
-		)
-		(instances
-			(project "Neon_2x1M_12V"
-				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8453,7 +8638,7 @@
 			(uuid "54d90e7e-f427-4134-a764-b40204af3a05")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "H4")
 					(unit 1)
@@ -8532,7 +8717,7 @@
 			(uuid "74afbb48-1012-4e1f-ab0a-fa8472307acc")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "H2")
 					(unit 1)
@@ -8543,18 +8728,18 @@
 	(symbol
 		(lib_name "Barrel_Jack_MountingPin_1")
 		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 67.31 81.28 0)
+		(at 68.58 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "105e4542-0f6d-4b31-bec1-1d9d51bfad60")
 		(property "Reference" "J5"
-			(at 67.31 72.39 0)
+			(at 68.58 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8564,7 +8749,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 67.31 74.93 0)
+			(at 68.58 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8574,7 +8759,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 68.58 82.296 0)
+			(at 69.85 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8585,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 82.296 0)
+			(at 69.85 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8596,7 +8781,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 67.31 81.28 0)
+			(at 68.58 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +8801,7 @@
 			(uuid "8aa8bd76-3e09-4095-9bf2-2189df75697b")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J5")
 					(unit 1)
@@ -8694,7 +8879,7 @@
 			(uuid "e07b17dc-e65e-41e1-89aa-ecac4255e836")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR037")
 					(unit 1)
@@ -8705,18 +8890,18 @@
 	(symbol
 		(lib_name "Barrel_Jack_MountingPin_2")
 		(lib_id "Connector:Barrel_Jack_MountingPin")
-		(at 105.41 81.28 0)
+		(at 107.95 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "13ebffd3-faa6-4c6d-80cf-87cdb4b2a15f")
 		(property "Reference" "J4"
-			(at 105.41 72.39 0)
+			(at 107.95 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8726,7 +8911,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 105.41 74.93 0)
+			(at 107.95 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8736,7 +8921,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 106.68 82.296 0)
+			(at 109.22 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,7 +8932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 82.296 0)
+			(at 109.22 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,7 +8943,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
-			(at 105.41 81.28 0)
+			(at 107.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8778,7 +8963,7 @@
 			(uuid "413619f1-b6d2-417b-9be9-874f0ec8278c")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J4")
 					(unit 1)
@@ -8856,7 +9041,7 @@
 			(uuid "283fa5fa-6832-4147-8f26-d06eb9d7e621")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#FLG02")
 					(unit 1)
@@ -8934,7 +9119,7 @@
 			(uuid "9f7f95f4-08b2-45a0-a809-97ae405db028")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR011")
 					(unit 1)
@@ -9016,7 +9201,7 @@
 			(uuid "d083216f-d97b-4244-a4e5-d8873dc682f8")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "C2")
 					(unit 1)
@@ -9107,9 +9292,88 @@
 			(uuid "a9429a0a-9b8b-49b1-9075-660a1c364150")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 76.2 76.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328bb796-5c1e-4b10-9793-ac622b469a6a")
+		(property "Reference" "#PWR025"
+			(at 72.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 80.01 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f21b568-c232-425e-9fd3-a2747960f4eb")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9201,7 +9465,7 @@
 			(uuid "4f503992-3c76-425c-8d21-4e48a8f86851")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J6")
 					(unit 1)
@@ -9279,9 +9543,88 @@
 			(uuid "7a7d2652-ba09-478a-a8fb-4f8f3f683130")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 72.39 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ce33812-c8dc-4e47-a438-0be2b9b3af0b")
+		(property "Reference" "#PWR024"
+			(at 68.58 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 76.2 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bbdcbb5-e190-46ca-bc35-4689aca1f9c5")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9378,9 +9721,88 @@
 			(uuid "7294ac09-587f-4a82-922d-43f2c27643ae")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 115.57 76.2 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41ca52e5-ece4-4e50-96a0-3c4ef3a0f0df")
+		(property "Reference" "#PWR026"
+			(at 111.76 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 119.38 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b274997-3c66-45e3-818d-0e2db1168d81")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9456,7 +9878,7 @@
 			(uuid "e57e6330-70b2-4ea5-a223-fc65d1e29340")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR018")
 					(unit 1)
@@ -9535,7 +9957,7 @@
 			(uuid "0f81d0ff-eb58-421e-86a5-9cc52ef328b5")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "H1")
 					(unit 1)
@@ -9617,7 +10039,7 @@
 			(uuid "bc0549f1-f9ab-47f6-8b74-99c1129250bd")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "D2")
 					(unit 1)
@@ -9695,7 +10117,7 @@
 			(uuid "a73ecbf2-cfd2-4d0d-bc6a-8f31e94acbde")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR036")
 					(unit 1)
@@ -9899,7 +10321,7 @@
 			(uuid "1242125e-e08d-4fae-a883-f7b4cc50ca1c")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "U1")
 					(unit 1)
@@ -9981,7 +10403,7 @@
 			(uuid "445ea6a4-15f6-4e73-942d-d1a4c47990cf")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R10")
 					(unit 1)
@@ -10059,7 +10481,7 @@
 			(uuid "b0c60035-1fd0-4a87-9b60-e415a395c9b9")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR02")
 					(unit 1)
@@ -10152,7 +10574,7 @@
 			(uuid "fcc79323-ffae-4eac-92b1-ca4916b76afc")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R8")
 					(unit 1)
@@ -10245,7 +10667,7 @@
 			(uuid "5a06236a-2417-4082-b1bb-756d5aeb4f0b")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R7")
 					(unit 1)
@@ -10321,7 +10743,7 @@
 			)
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "FID2")
 					(unit 1)
@@ -10414,7 +10836,7 @@
 			(uuid "5f00eba5-03b4-4577-a934-981482b0f8f9")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "SW1")
 					(unit 1)
@@ -10490,7 +10912,7 @@
 			)
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "FID1")
 					(unit 1)
@@ -10581,7 +11003,7 @@
 			(uuid "b0dc478d-434a-4992-a831-8657be89dfb2")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R2")
 					(unit 1)
@@ -10659,7 +11081,7 @@
 			(uuid "e1640302-6b04-4882-93df-f2b8e73e8f05")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR016")
 					(unit 1)
@@ -10752,7 +11174,7 @@
 			(uuid "6dc6f263-0015-4568-ae98-6e0fa3357a94")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R3")
 					(unit 1)
@@ -10834,7 +11256,7 @@
 			(uuid "ab519b9c-061e-4121-a45b-03b52aa1c267")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "C1")
 					(unit 1)
@@ -10912,7 +11334,7 @@
 			(uuid "1cd0af83-61aa-4b43-996d-f69abc41b784")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR023")
 					(unit 1)
@@ -10991,7 +11413,7 @@
 			(uuid "7e0b055e-9ea4-421f-8571-38a55e596fd6")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR019")
 					(unit 1)
@@ -11084,7 +11506,7 @@
 			(uuid "df5c343f-d85a-417f-9289-9cddb7d6ae5b")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R6")
 					(unit 1)
@@ -11217,7 +11639,7 @@
 			(uuid "9248cfe4-f78f-4b4a-970b-5d6c2b79be64")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J3")
 					(unit 1)
@@ -11295,7 +11717,7 @@
 			(uuid "3906a589-55b1-45cf-96c8-bdc14275b475")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR0101")
 					(unit 1)
@@ -11373,7 +11795,7 @@
 			(uuid "2ef872b7-ec26-4e91-b86b-277fe57c7e6e")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR015")
 					(unit 1)
@@ -11451,7 +11873,7 @@
 			(uuid "da4150bc-69f8-4f5a-b67e-aaa11c5791a1")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR08")
 					(unit 1)
@@ -11534,7 +11956,7 @@
 			(uuid "9753cead-45d6-48b8-a497-a7a07fd7509a")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J2")
 					(unit 1)
@@ -11616,7 +12038,7 @@
 			(uuid "6f362691-c857-41b3-9432-fdde1adfc86a")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "C4")
 					(unit 1)
@@ -11709,9 +12131,89 @@
 			(uuid "47a75afb-d708-4137-bc88-2500a91a0352")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 101.6 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b731c4-f0c1-437e-95c8-3cb111b0ad16")
+		(property "Reference" "J8"
+			(at 101.6 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 101.6 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28e2baa7-5cba-4e72-9539-13c1cfd743b7")
+		)
+		(pin "1"
+			(uuid "717a014b-1cf2-42e5-b891-366127bc6674")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11842,7 +12344,7 @@
 			(uuid "4bd5c1ba-22c8-44de-a37b-2868c3ab43d6")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "J1")
 					(unit 1)
@@ -11935,7 +12437,7 @@
 			(uuid "9239465c-81c2-4663-a0c0-c347f71ca105")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R1")
 					(unit 1)
@@ -12013,7 +12515,7 @@
 			(uuid "75585771-8409-464b-8b5a-5d41c7505647")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR07")
 					(unit 1)
@@ -12092,7 +12594,7 @@
 			(uuid "8877ad63-05ee-40d7-a8b4-6a2917f80489")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR020")
 					(unit 1)
@@ -12174,7 +12676,7 @@
 			(uuid "b101ff1a-7ae6-4a8b-9669-8623ac042402")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R9")
 					(unit 1)
@@ -12251,7 +12753,7 @@
 			(uuid "042808dc-daca-4881-8aa3-3016abb55ca7")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR032")
 					(unit 1)
@@ -12330,7 +12832,7 @@
 			(uuid "cf4e7d0b-6604-4897-be24-5d8dc4c3d57a")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR013")
 					(unit 1)
@@ -12409,7 +12911,7 @@
 			(uuid "de60f92a-f575-4b75-95f7-b78ace11b11b")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR014")
 					(unit 1)
@@ -12487,7 +12989,7 @@
 			(uuid "5ab56326-34af-4660-8f85-f04b5131ef46")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#FLG01")
 					(unit 1)
@@ -12566,7 +13068,7 @@
 			(uuid "59209b6b-aa7d-4483-88a0-3433cdc4bdaf")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR034")
 					(unit 1)
@@ -12669,7 +13171,7 @@
 			(uuid "9ea76364-f5ce-4fe3-9ac1-67e59fc666bd")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "D9")
 					(unit 1)
@@ -12768,7 +13270,7 @@
 			(uuid "fba6e60b-8c82-483d-b058-6233dbee26e3")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "Q2")
 					(unit 1)
@@ -12850,7 +13352,7 @@
 			(uuid "9332f020-83fc-4826-812f-046d046a8cac")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R11")
 					(unit 1)
@@ -12928,7 +13430,7 @@
 			(uuid "c790d721-90ea-4c85-97ff-b9e9592b1ebe")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR01")
 					(unit 1)
@@ -13021,7 +13523,7 @@
 			(uuid "7cda6702-b545-4a74-9b0b-342417c6b144")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "R4")
 					(unit 1)
@@ -13124,7 +13626,7 @@
 			(uuid "23ef7937-6644-418b-9923-a227c7f2015b")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "D5")
 					(unit 1)
@@ -13202,9 +13704,168 @@
 			(uuid "ebb37055-18c4-44cd-ba9f-8557bbcd431a")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 106.68 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5eaaff-f3b8-4de5-a21f-4be9ee2de80c")
+		(property "Reference" "#PWR033"
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 110.49 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 106.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c6e888c-faa6-45a3-a3e6-8a47eb75537b")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 67.31 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc48ce24-b675-4c4e-9a8f-64eb4234f543")
+		(property "Reference" "J7"
+			(at 67.31 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 67.31 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3c83ab6-49fa-4841-8ae7-440d98ff2e8d")
+		)
+		(pin "1"
+			(uuid "10e53e6c-1273-469c-9292-88e1dd2938dc")
+		)
+		(instances
+			(project "Neon_2x1M_12V_V2_0"
+				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -13280,88 +13941,9 @@
 			(uuid "4731795a-84da-4eb0-a1e1-611660a0821e")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 113.03 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e18b6f70-92b2-47de-b996-a43c625c20a1")
-		(property "Reference" "#PWR033"
-			(at 109.22 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 116.84 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 113.03 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bf753c5-161e-47a0-8f5b-a0509490b92b")
-		)
-		(instances
-			(project "Neon_2x1M_12V"
-				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13438,7 +14020,7 @@
 			(uuid "86a1260b-8e2a-4d5e-9731-0d309965cf1f")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "L1")
 					(unit 1)
@@ -13520,7 +14102,7 @@
 			(uuid "2c87f18e-84c0-4865-ac6e-264a4f2efb05")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "C3")
 					(unit 1)
@@ -13613,7 +14195,7 @@
 			(uuid "29e1f8e4-9a6a-46c1-b93c-b0b55a265136")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "D1")
 					(unit 1)
@@ -13692,7 +14274,7 @@
 			(uuid "3940ba5e-e55c-40be-9920-aa2dcd2d5a44")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR021")
 					(unit 1)
@@ -13770,7 +14352,7 @@
 			(uuid "5211a609-3235-41f4-a0bc-ed3994d79b0a")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR09")
 					(unit 1)
@@ -13848,7 +14430,7 @@
 			(uuid "4d6fb31b-a5fd-47b1-8d37-aec7f07cb4b2")
 		)
 		(instances
-			(project "Neon_2x1M_12V"
+			(project "Neon_2x1M_12V_V2_0"
 				(path "/bf996e64-b02c-4333-a24f-d261c8c5246e"
 					(reference "#PWR039")
 					(unit 1)
