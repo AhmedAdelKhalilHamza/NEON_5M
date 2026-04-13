@@ -1,0 +1,20 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,link
+C1,1,100uF,,,,Capacitor_SMD:C_Elec_8x10.2,harvesting module
+"C2,C4",2,100nF,,,,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,makers order
+C3,1,220uF,,,,Capacitor_SMD:C_Elec_8x10.2,harvesting module
+D2,1,SS34,,,,Diode_SMD:D_SMA_Handsoldering,harvesting module
+D5,1,Blue Indicator LED,,,,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://makerselectronics.com/product/smd-led-blue-1206/
+D9,1,Red Power LED,,,,LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,https://makerselectronics.com/product/smd-led-red-1206/
+J2,1,Barrel_Jack_MountingPin,,,,Connector_BarrelJack:BarrelJack_Horizontal,makers order
+J6,1,Conn_01x03_Pin,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://microohm-eg.com/product/jst-3-pin-90-degree-male-connector/
+"J7,J8",2,Screw_Terminal_01x02,,,,Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical,makers order
+L1,1,47uH,,,,Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm,harvesting module
+"Q1,Q2",2,IRLML2502TRPBF,,,,custom_SOT23:custom_SOT23,https://uge-one.com/product/smd-irlml2502trpbf-sot-23-mosfet/?srsltid=AfmBOoqixCZKi2_Rw_QPyVd6y4KRdvrHyCsGijRPH4lNedpiwvgNOyGw
+"R1,R4",2,820 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://uge-one.com/product/smd-chip-resistor-size-1206-820r-ohm/
+"R2,R5",2,100 Ohm,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,https://uge-one.com/product/smd-chip-resistor-size-1206-100r-ohm/
+"R3,R6,R7,R8",4,10k Ohm,,,,Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder,https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b15-0-5w-%c2%b1100ppm-%e2%84%83-1210/
+R9,1,16K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,makers order
+R10,1,27K,,,,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,makers order
+"SW1,SW2",2,SW_Push,,,,TS_button_3_4_2:TS_button_3_4_2,https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/
+U1,1,ESP32-WROOM-32,,,,RF_Module:ESP32-WROOM-32,https://uge-one.com/product/espressif-esp32-wroom-32-dual-core-wi-fi-bluetooth-iot-module/
+U3,1,LM2596T-ADJ,,,,Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical,makers order

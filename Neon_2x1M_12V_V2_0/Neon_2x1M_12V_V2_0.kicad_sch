@@ -10523,7 +10523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 212.598 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -10556,7 +10556,7 @@
 				)
 			)
 		)
-		(property "link" "https://uge-one.com/product/0805-smd-chip-resistor-10k/?srsltid=AfmBOorGllG0mYHf8TnX2S13KIvxT3n0IIoJoriv-BR9zB-dGtGjm2Vg"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b15-0-5w-%c2%b1100ppm-%e2%84%83-1210/"
 			(at 210.82 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +10616,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 198.628 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +10649,7 @@
 				)
 			)
 		)
-		(property "link" "https://uge-one.com/product/0805-smd-chip-resistor-10k/?srsltid=AfmBOorGllG0mYHf8TnX2S13KIvxT3n0IIoJoriv-BR9zB-dGtGjm2Vg"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b15-0-5w-%c2%b1100ppm-%e2%84%83-1210/"
 			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11123,7 +11123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 35.052 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -11156,7 +11156,7 @@
 				)
 			)
 		)
-		(property "link" "https://uge-one.com/product/0805-smd-chip-resistor-10k/?srsltid=AfmBOorGllG0mYHf8TnX2S13KIvxT3n0IIoJoriv-BR9zB-dGtGjm2Vg"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b15-0-5w-%c2%b1100ppm-%e2%84%83-1210/"
 			(at 36.83 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11455,7 +11455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 35.052 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -11488,7 +11488,7 @@
 				)
 			)
 		)
-		(property "link" "https://uge-one.com/product/0805-smd-chip-resistor-10k/?srsltid=AfmBOorGllG0mYHf8TnX2S13KIvxT3n0IIoJoriv-BR9zB-dGtGjm2Vg"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b15-0-5w-%c2%b1100ppm-%e2%84%83-1210/"
 			(at 36.83 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12625,7 +12625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3K"
+		(property "Value" "16K"
 			(at 144.78 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13553,7 +13553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Red Indicator LED"
+		(property "Value" "Blue Indicator LED"
 			(at 208.026 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
