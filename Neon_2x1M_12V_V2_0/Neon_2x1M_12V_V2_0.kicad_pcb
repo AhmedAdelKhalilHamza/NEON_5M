@@ -140,7 +140,7 @@
 		(descr "JST NV series connector, B02P-NV (http://www.jst-mfg.com/product/pdf/eng/eNV.pdf)")
 		(tags "connector JST NV vertical")
 		(property "Reference" "J8"
-			(at 9 3.55 180)
+			(at 5 6.55 180)
 			(layer "F.SilkS")
 			(uuid "72e13231-e467-428f-9440-9daa2bd66e80")
 			(effects
@@ -4450,7 +4450,7 @@
 		(descr "JST NV series connector, B02P-NV (http://www.jst-mfg.com/product/pdf/eng/eNV.pdf)")
 		(tags "connector JST NV vertical")
 		(property "Reference" "J7"
-			(at 9 3.55 180)
+			(at 5.5 6.55 180)
 			(layer "F.SilkS")
 			(uuid "5a8950de-1a9f-496a-875e-7f4cfd46f42e")
 			(effects
@@ -8809,6 +8809,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "494e8762-c16d-46da-8e6b-622bc9bf6265")
+	)
+	(gr_text "+12V"
+		(at 214 114.5 0)
+		(layer "F.SilkS")
+		(uuid "46b1488e-8ff7-48ca-901d-736a3b4fa439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+12V"
+		(at 214 129.5 0)
+		(layer "F.SilkS")
+		(uuid "00aad953-8e90-4c08-90ff-488fc7c13476")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text_box "Metanoio Design Rules :\n\n- Minimum clearance: 0.4mm\n- Minimum track width: 0.4mm\n- Minimum via diameter: 1.4mm\n- Minimum via hole: 0.6mm\n- Max Dimensions: 20x29 cm"
 		(start 122.525 105)
