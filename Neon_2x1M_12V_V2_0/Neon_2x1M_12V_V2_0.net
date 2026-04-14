@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "D:\\github\\NEON_2x1M\\Neon_2x1M_12V_V2_0\\Neon_2x1M_12V_V2_0.kicad_sch")
-		(date "2026-04-14T00:54:23")
+		(date "2026-04-14T19:06:20")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
