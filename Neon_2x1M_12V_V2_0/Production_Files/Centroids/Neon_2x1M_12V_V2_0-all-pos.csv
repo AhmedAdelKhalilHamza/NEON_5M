@@ -7,13 +7,13 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D2","SS34","D_SMA_Handsoldering",31.000000,-52.500000,-90.000000,top
 "D5","Blue Indicator LED","LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",17.801181,-28.595000,0.000000,top
 "D9","Red Power LED","LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder",39.000000,-31.000000,90.000000,top
-"H1","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",5.000000,-56.000000,0.000000,top
+"H1","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",5.000000,-56.500000,0.000000,top
 "H2","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",5.000000,-3.500000,0.000000,top
-"H3","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",55.000000,-56.000000,0.000000,top
+"H3","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",55.000000,-56.500000,0.000000,top
 "H4","MountingHole_Pad","MountingHole_3.2mm_M3_Pad_Via",55.000000,-3.500000,0.000000,top
 "J6","Conn_01x03_Pin","PinHeader_1x03_P2.54mm_Vertical",41.801181,-3.500000,-90.000000,top
 "J7","Screw_Terminal_01x02","JST_NV_B02P-NV_1x02_P5.00mm_Vertical",54.550000,-13.000000,-90.000000,top
-"J8","Screw_Terminal_01x02","JST_NV_B02P-NV_1x02_P5.00mm_Vertical",54.550000,-28.000000,-90.000000,top
+"J8","Screw_Terminal_01x02","JST_NV_B02P-NV_1x02_P5.00mm_Vertical",54.500000,-28.000000,-90.000000,top
 "L1","47uH","L_Bourns_SRR1208_12.7x12.7mm",19.500000,-48.000000,180.000000,top
 "Q1","IRLML2502TRPBF","custom_SOT23",44.000000,-22.000000,-90.000000,top
 "Q2","IRLML2502TRPBF","custom_SOT23",44.000000,-15.000000,-90.000000,top
