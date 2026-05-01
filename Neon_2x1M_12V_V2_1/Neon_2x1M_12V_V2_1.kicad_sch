@@ -3722,16 +3722,16 @@
 		(uuid "f23f79ca-fbdf-4a9c-ac47-153e8faa1a2e")
 	)
 	(no_connect
+		(at 241.3 80.01)
+		(uuid "2544544d-c2a6-4a7d-83c5-395115bf1ec0")
+	)
+	(no_connect
 		(at 210.82 85.09)
 		(uuid "39d1f770-178b-4cba-bb67-41a57382f9d2")
 	)
 	(no_connect
 		(at 210.82 80.01)
 		(uuid "3fdf4b19-646c-4c9d-b217-bd0238c6716a")
-	)
-	(no_connect
-		(at 241.3 67.31)
-		(uuid "4414058c-bf24-46b9-bc32-4eef26a7d11b")
 	)
 	(no_connect
 		(at 241.3 62.23)
@@ -4607,7 +4607,7 @@
 			)
 		)
 	)
-	(global_label "ESP_IO19"
+	(global_label "ESP_IO14"
 		(shape input)
 		(at 26.67 156.21 180)
 		(fields_autoplaced yes)
@@ -4772,30 +4772,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ESP_IO19"
-		(shape input)
-		(at 241.3 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a59d74a-e9e1-4d61-af52-9920ca6327b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2356 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4964,6 +4940,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ESP_IO14"
+		(shape input)
+		(at 241.3 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e26c8374-2fa6-4cf1-80cc-5b0febdaa277")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.2356 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5612,7 +5612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6491,7 +6491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
 			(at 52.07 126.365 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 207.01 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6661,7 +6661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
 			(at 52.07 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -7601,7 +7601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8613,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 100.33 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8850,7 +8850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 186.69 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.61 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9720,7 +9720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 133.35 152.4 0)
 			(hide yes)
 			(show_name no)
