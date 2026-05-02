@@ -3722,10 +3722,6 @@
 		(uuid "f23f79ca-fbdf-4a9c-ac47-153e8faa1a2e")
 	)
 	(no_connect
-		(at 241.3 80.01)
-		(uuid "2544544d-c2a6-4a7d-83c5-395115bf1ec0")
-	)
-	(no_connect
 		(at 210.82 85.09)
 		(uuid "39d1f770-178b-4cba-bb67-41a57382f9d2")
 	)
@@ -3804,6 +3800,10 @@
 	(no_connect
 		(at 241.3 64.77)
 		(uuid "deaed2b5-da3f-44af-a6d6-08d93f9762ae")
+	)
+	(no_connect
+		(at 241.3 67.31)
+		(uuid "e35942e2-720c-4d4d-9f87-f19c9c50d84c")
 	)
 	(no_connect
 		(at 210.82 77.47)
@@ -4607,7 +4607,7 @@
 			)
 		)
 	)
-	(global_label "ESP_IO14"
+	(global_label "ESP_IO19"
 		(shape input)
 		(at 26.67 156.21 180)
 		(fields_autoplaced yes)
@@ -4799,6 +4799,30 @@
 			)
 		)
 	)
+	(global_label "ESP_IO19"
+		(shape input)
+		(at 241.3 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b21f99b1-e472-441c-aefc-60515ce25c2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.2356 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ESP_U0TX"
 		(shape input)
 		(at 143.51 30.48 0)
@@ -4940,30 +4964,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "ESP_IO14"
-		(shape input)
-		(at 241.3 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e26c8374-2fa6-4cf1-80cc-5b0febdaa277")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.2356 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5348,9 +5348,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09afaf02-2710-4923-9711-d8d49b776e14")
 		(property "Reference" "H3"
@@ -5506,9 +5506,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bf005ba-f6a6-4d07-ad5b-6f7013aee3e3")
 		(property "Reference" "H2"
